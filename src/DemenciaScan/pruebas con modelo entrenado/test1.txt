@@ -1,0 +1,1 @@
+ Una febrera de grabación para nuestro primer estudio con BERT y ver si es que podemos detectar patrones de demencia en las personas. No, de... bueno, mmm... no, mmm... No puede ser.

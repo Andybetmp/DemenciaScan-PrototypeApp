@@ -1,0 +1,804 @@
+id,patient_id,filename,texto,texto_limpio,idioma,num_palabras,riqueza_lexica,audio_comprehension_issues,repetitive_patterns,incomplete_thoughts,filler_words_count,language_switching,semantic_errors,phonemic_errors,word_finding_pauses,total_utterances,avg_utterance_length,coherence_breaks,topic_maintenance,edad,nivel_educacion,calidad_sueno,habitos_diarios,nivel_entorno_social,diagnostico_alzheimer,dementia_risk_score
+adrso031,31,adrso031.txt,"perdón
+Ah ah ah
+no nada mejor
+[No se pudo entender el audio]
+que tengas que ganar
+[No se pudo entender el audio]
+sí sí sí
+Jajaja
+","perdón
+Ah ah ah
+no nada mejor
+[No se pudo entender el audio]
+que tengas que ganar
+[No se pudo entender el audio]
+sí sí sí
+Jajaja
+",es,27,0.5925925925925926,2,0,0,4,0,3,13,0,8,3.375,0,0.0,71,secundaria,mala,sedentario,bajo,no,0.3141025641025641
+adrso036,36,adrso036.txt,"Tell me What's going on All the action What's going on in this pictures
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+going on Anymore action in the picture
+okay
+","Tell me What's going on All the action What's going on in this pictures
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+going on Anymore action in the picture
+okay
+",en,34,0.5882352941176471,2,0,0,1,0,5,13,0,5,6.8,0,0.029411764705882353,84,primaria,mala,sedentario,bajo,no,0.3141025641025641
+adrso047,47,adrso047.txt,"[No se pudo entender el audio]
+fútbol libre
+[No se pudo entender el audio]
+y anything outs
+[No se pudo entender el audio]
+Castle
+","[No se pudo entender el audio]
+fútbol libre
+[No se pudo entender el audio]
+y anything outs
+[No se pudo entender el audio]
+Castle
+",es,24,0.5,3,0,0,0,0,3,10,0,6,4.0,0,0.0,79,universitaria,mala,sedentario,alto,no,0.24358974358974356
+adrso054,54,adrso054.txt,"What's happening in that picture
+canchito
+[No se pudo entender el audio]
+hay que tener hijos porque eso es eso
+hot
+[No se pudo entender el audio]
+we don't have to read it Just Look at the picture with you
+Daniel
+yo creo que ya la parte de atrás
+[No se pudo entender el audio]
+anything Else was happening over here Just going
+[No se pudo entender el audio]
+sois okay
+no puedo irme Lo que pasó amigo
+alto
+Okay very good thank you
+","What's happening in that picture
+canchito
+[No se pudo entender el audio]
+hay que tener hijos porque eso es eso
+hot
+[No se pudo entender el audio]
+we don't have to read it Just Look at the picture with you
+Daniel
+yo creo que ya la parte de atrás
+[No se pudo entender el audio]
+anything Else was happening over here Just going
+[No se pudo entender el audio]
+sois okay
+no puedo irme Lo que pasó amigo
+alto
+Okay very good thank you
+",es,84,0.6904761904761905,4,0,0,2,0,14,25,0,15,5.533333333333333,0,0.03571428571428571,75,secundaria,buena,sedentario,medio,si,0.6923076923076923
+adrso055,55,adrso055.txt,"[No se pudo entender el audio]
+Thank you and mother Over The water Sounds Bill not the song
+[No se pudo entender el audio]
+Ah Ah Ah Ah Ah
+vamos al 6
+después
+[No se pudo entender el audio]
+Jajaja
+[No se pudo entender el audio]
+no esté
+","[No se pudo entender el audio]
+Thank you and mother Over The water Sounds Bill not the song
+[No se pudo entender el audio]
+Ah Ah Ah Ah Ah
+vamos al 6
+después
+[No se pudo entender el audio]
+Jajaja
+[No se pudo entender el audio]
+no esté
+",es,48,0.5208333333333334,4,0,0,6,0,7,19,0,10,4.8,0,0.041666666666666664,72,primaria,buena,ejercicio regular,bajo,si,0.532051282051282
+adrso059,59,adrso059.txt,"tengo pictures
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+Android and She Hot friend another okay
+[No se pudo entender el audio]
+","tengo pictures
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+Android and She Hot friend another okay
+[No se pudo entender el audio]
+",es,27,0.5555555555555556,3,0,0,1,0,4,9,0,5,5.4,0,0.037037037037037035,71,secundaria,buena,ejercicio regular,alto,no,0.2628205128205128
+adrso060,60,adrso060.txt,"[No se pudo entender el audio]
+Okay okay
+no dónde estás
+piercing ahora se llama
+waterston
+girlfriends
+","[No se pudo entender el audio]
+Okay okay
+no dónde estás
+piercing ahora se llama
+waterston
+girlfriends
+",es,17,0.8823529411764706,1,1,0,2,0,3,5,0,6,2.8333333333333335,1,0.058823529411764705,83,primaria,mala,sedentario,alto,no,0.1923076923076923
+adrso070,70,adrso070.txt,"What is happening in that Thing
+luego voy a salir
+Sí está bien
+cuñado sus hijas las canciones
+qué hago
+el
+[No se pudo entender el audio]
+","What is happening in that Thing
+luego voy a salir
+Sí está bien
+cuñado sus hijas las canciones
+qué hago
+el
+[No se pudo entender el audio]
+",es,27,0.9629629629629629,1,0,0,0,0,5,8,0,6,4.333333333333333,0,0.037037037037037035,75,universitaria,buena,ejercicio regular,medio,no,0.21794871794871795
+adrso072,72,adrso072.txt,"Hola amigos
+floors like a Facebook Facebook
+co
+quién eres
+[No se pudo entender el audio]
+","Hola amigos
+floors like a Facebook Facebook
+co
+quién eres
+[No se pudo entender el audio]
+",es,16,0.9375,1,1,0,0,0,5,5,0,4,3.75,0,0.0,75,secundaria,regular,sedentario,alto,no,0.20512820512820512
+adrso074,74,adrso074.txt,"pastillas
+One I'm Still haven't standing on the floor cover tooth is opening matters Washington
+What is Reading Ever falling save
+A dónde washing holding Players
+maquillajes
+[No se pudo entender el audio]
+tú robar señor
+yo creo que en ese momento
+","pastillas
+One I'm Still haven't standing on the floor cover tooth is opening matters Washington
+What is Reading Ever falling save
+A dónde washing holding Players
+maquillajes
+[No se pudo entender el audio]
+tú robar señor
+yo creo que en ese momento
+",en,42,0.9761904761904762,1,0,0,0,0,6,14,0,8,5.25,0,0.023809523809523808,68,secundaria,buena,ejercicio regular,bajo,no,0.3141025641025641
+adrso075,75,adrso075.txt,"venga un comunicador
+they
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","venga un comunicador
+they
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",es,16,0.625,2,0,0,0,0,2,7,0,4,4.0,0,0.0,72,universitaria,mala,sedentario,bajo,no,0.16666666666666666
+adrso077,77,adrso077.txt,"me imaginé momento
+un String love your todo es para mañana
+[No se pudo entender el audio]
+Jajaja
+[No se pudo entender el audio]
+Mira acá
+","me imaginé momento
+un String love your todo es para mañana
+[No se pudo entender el audio]
+Jajaja
+[No se pudo entender el audio]
+Mira acá
+",es,26,0.7692307692307693,2,0,0,1,0,4,9,0,6,4.333333333333333,0,0.0,67,universitaria,regular,sedentario,alto,no,0.24358974358974356
+adrso092,92,adrso092.txt,"I want to take a Look at that pictures see happening there
+Hola cookies and She's like and they know is going to Fall off the chair
+Jajaja eh Under mother is doing the dishes and not doing nothing careful you don't know water off in the waters all going to the floor
+Allende
+","I want to take a Look at that pictures see happening there
+Hola cookies and She's like and they know is going to Fall off the chair
+Jajaja eh Under mother is doing the dishes and not doing nothing careful you don't know water off in the waters all going to the floor
+Allende
+",en,54,0.7777777777777778,0,0,0,2,0,10,13,0,4,13.5,0,0.09259259259259259,66,secundaria,regular,sedentario,alto,si,0.3846153846153846
+adrso098,98,adrso098.txt,"I want to Tell me everything in this happened and that cactus
+bueno no soy nada verdad
+Gracias Señor por favor
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+chismosa ganador
+mejores formas de share sí Siri sabes
+Qué rico
+","I want to Tell me everything in this happened and that cactus
+bueno no soy nada verdad
+Gracias Señor por favor
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+chismosa ganador
+mejores formas de share sí Siri sabes
+Qué rico
+",es,50,0.76,3,0,0,0,0,9,16,0,9,5.555555555555555,0,0.02,76,secundaria,regular,ejercicio regular,alto,si,0.43589743589743585
+adrso106,106,adrso106.txt,"picture is something
+No tampoco es con la pintura
+se se pega unas flores
+muy bien muchas gracias
+Mmm sí empecé
+madre mía descansa muy bien entonces
+table
+no te digo
+okay
+","picture is something
+No tampoco es con la pintura
+se se pega unas flores
+muy bien muchas gracias
+Mmm sí empecé
+madre mía descansa muy bien entonces
+table
+no te digo
+okay
+",es,32,0.875,0,0,0,3,0,6,9,0,9,3.5555555555555554,0,0.03125,70,secundaria,buena,ejercicio regular,medio,no,0.2692307692307692
+adrso109,109,adrso109.txt,"pues Take Look at that picture take a Look at that picture and Tell me Everything to you see happening in that picture
+Bueno me Everything It's going on in that picture and Everything Is happening there you want to crossed out or Just
+Okay hija
+[No se pudo entender el audio]
+which is ready to follow sister is asking for you Start The little all in one Smart
+Ah sí nada
+mother is now Washington
+[No se pudo entender el audio]
+more cookies
+okay
+","pues Take Look at that picture take a Look at that picture and Tell me Everything to you see happening in that picture
+Bueno me Everything It's going on in that picture and Everything Is happening there you want to crossed out or Just
+Okay hija
+[No se pudo entender el audio]
+which is ready to follow sister is asking for you Start The little all in one Smart
+Ah sí nada
+mother is now Washington
+[No se pudo entender el audio]
+more cookies
+okay
+",en,85,0.6470588235294118,2,0,0,4,0,15,25,0,10,8.5,0,0.058823529411764705,66,universitaria,regular,sedentario,alto,si,0.6987179487179487
+adrso116,116,adrso116.txt,"no me quieres I want to Tell me Everything you see you Everything going in the picture tell me what you see you going
+cuidado
+and mother is working
+xiaomi especialista
+Wow the mother is this is taking care of this
+cook
+[No se pudo entender el audio]
+Hello is going on here This Is going In The Phone
+the goodness cookies
+Pues sí Seven problem
+floor
+[No se pudo entender el audio]
+","no me quieres I want to Tell me Everything you see you Everything going in the picture tell me what you see you going
+cuidado
+and mother is working
+xiaomi especialista
+Wow the mother is this is taking care of this
+cook
+[No se pudo entender el audio]
+Hello is going on here This Is going In The Phone
+the goodness cookies
+Pues sí Seven problem
+floor
+[No se pudo entender el audio]
+",en,73,0.6164383561643836,2,0,0,1,0,13,23,0,12,6.083333333333333,0,0.0547945205479452,65,universitaria,regular,sedentario,alto,si,0.5961538461538461
+adrso125,125,adrso125.txt,"según Look at the picture Just tell me what you see you going on another Tell me Everything that you see happening there Now right now
+me acuerdo
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+Qué bueno
+spider-man thank you
+","según Look at the picture Just tell me what you see you going on another Tell me Everything that you see happening there Now right now
+me acuerdo
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+Qué bueno
+spider-man thank you
+",en,45,0.6888888888888889,2,0,0,0,0,8,11,0,6,7.5,0,0.08888888888888889,76,universitaria,buena,sedentario,alto,no,0.3333333333333333
+adrso126,126,adrso126.txt,"escucha take a Look at this picture and Tell me Everything you see going on in the picture Tell me Everything Is see happening
+Now me gusta
+[No se pudo entender el audio]
+the working day is going You Never Gonna water
+Mis respetos
+ahora vamos a correos guardados ahora
+","escucha take a Look at this picture and Tell me Everything you see going on in the picture Tell me Everything Is see happening
+Now me gusta
+[No se pudo entender el audio]
+the working day is going You Never Gonna water
+Mis respetos
+ahora vamos a correos guardados ahora
+",en,50,0.76,1,0,0,0,0,9,12,0,6,8.333333333333334,0,0.1,76,secundaria,mala,sedentario,alto,no,0.34615384615384615
+adrso128,128,adrso128.txt,"I just want to the Tell me Everything that you see happening in that picture Everything Is going One
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+bueno es underground
+es
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+okay Un saludito
+","I just want to the Tell me Everything that you see happening in that picture Everything Is going One
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+bueno es underground
+es
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+okay Un saludito
+",en,62,0.46774193548387094,6,0,0,1,0,9,26,0,9,6.777777777777778,0,0.06451612903225806,81,secundaria,regular,sedentario,medio,si,0.6346153846153845
+adrso134,134,adrso134.txt,"What's You Take a Look at the picture Tell me Everything is the happening That picture Everything with going on
+no esté Okay is Girls reaction Hi
+agendas
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","What's You Take a Look at the picture Tell me Everything is the happening That picture Everything with going on
+no esté Okay is Girls reaction Hi
+agendas
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",en,40,0.75,2,0,0,1,0,7,15,0,5,8.0,0,0.075,74,universitaria,regular,sedentario,medio,si,0.3782051282051282
+adrso138,138,adrso138.txt,"and Tell me Everything that you see happening in that picture Everything that going on and there
+[No se pudo entender el audio]
+the mother is doing washing the dishes and Roses
+cookies en español
+Buen día es looks like It's gonna Fall
+WhatsApp
+récords
+","and Tell me Everything that you see happening in that picture Everything that going on and there
+[No se pudo entender el audio]
+the mother is doing washing the dishes and Roses
+cookies en español
+Buen día es looks like It's gonna Fall
+WhatsApp
+récords
+",en,45,0.8666666666666667,1,0,0,0,0,9,12,0,7,6.428571428571429,0,0.1111111111111111,80,secundaria,mala,sedentario,medio,no,0.34615384615384615
+adrso141,141,adrso141.txt,"mmm pictures the voice Kevin en Spotify
+sisters waiting for cookies and manage Washington water spelling Ever can See That Walk
+Falls
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","mmm pictures the voice Kevin en Spotify
+sisters waiting for cookies and manage Washington water spelling Ever can See That Walk
+Falls
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",en,34,0.8235294117647058,2,0,0,1,0,6,7,0,5,6.8,0,0.14705882352941177,79,primaria,regular,ejercicio regular,alto,no,0.2564102564102564
+adrso142,142,adrso142.txt,"no se hablan inglés
+ay Diosito
+Uy una canción
+[No se pudo entender el audio]
+","no se hablan inglés
+ay Diosito
+Uy una canción
+[No se pudo entender el audio]
+",es,15,0.9333333333333333,1,0,0,0,0,2,7,0,4,3.75,0,0.0,79,primaria,buena,sedentario,alto,no,0.1474358974358974
+adrso144,144,adrso144.txt,"Okay ya
+[No se pudo entender el audio]
+aceites watching
+no spider-man
+bueno no va a tener perdone verdad
+okay
+decime dónde dices
+por favor
+","Okay ya
+[No se pudo entender el audio]
+aceites watching
+no spider-man
+bueno no va a tener perdone verdad
+okay
+decime dónde dices
+por favor
+",es,25,0.92,1,0,0,2,0,4,8,0,8,3.125,0,0.04,83,primaria,buena,ejercicio regular,bajo,no,0.22435897435897434
+adrso200,200,adrso200.txt,"[No se pudo entender el audio]
+[No se pudo entender el audio]
+Hola
+[No se pudo entender el audio]
+sech
+esta manera
+mi amor
+ya sabes Adivina
+okay
+ah
+ando usando
+ahm fathers
+vas a decir que no podemos
+vamos a hacer algo conmigo
+","[No se pudo entender el audio]
+[No se pudo entender el audio]
+Hola
+[No se pudo entender el audio]
+sech
+esta manera
+mi amor
+ya sabes Adivina
+okay
+ah
+ando usando
+ahm fathers
+vas a decir que no podemos
+vamos a hacer algo conmigo
+",es,44,0.7045454545454546,3,0,0,2,0,8,14,0,13,3.3076923076923075,0,0.0,76,primaria,regular,sedentario,medio,si,0.41666666666666663
+adrso205,205,adrso205.txt,"nos vemos muy pronto
+permiso
+girl I thinking Smith Because She didn't gets ofs mamá
+Bueno okay
+[No se pudo entender el audio]
+No de hecho
+no acepta games Passion
+no okay
+","nos vemos muy pronto
+permiso
+girl I thinking Smith Because She didn't gets ofs mamá
+Bueno okay
+[No se pudo entender el audio]
+No de hecho
+no acepta games Passion
+no okay
+",en,32,0.90625,1,0,0,2,0,5,8,0,8,4.0,1,0.0,84,secundaria,buena,ejercicio regular,medio,no,0.24358974358974358
+adrso206,206,adrso206.txt,"Just Tell me Everything that you say happening in the picture I love Girls
+Google
+[No se pudo entender el audio]
+What are on the floor
+Ah Bueno Jajaja
+casual dashes and water forces One Direction the floor
+Hey
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","Just Tell me Everything that you say happening in the picture I love Girls
+Google
+[No se pudo entender el audio]
+What are on the floor
+Ah Bueno Jajaja
+casual dashes and water forces One Direction the floor
+Hey
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",en,51,0.7058823529411765,3,0,0,2,0,9,14,0,8,6.25,0,0.0784313725490196,67,secundaria,regular,ejercicio regular,medio,si,0.43589743589743585
+adrso209,209,adrso209.txt,"samid
+[No se pudo entender el audio]
+Jackson This Is going on in that pictures okay
+[No se pudo entender el audio]
+Gracias ni siquiera
+los amores
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+overheads
+okay
+un exámenes entre todos urbano
+Okay good
+","samid
+[No se pudo entender el audio]
+Jackson This Is going on in that pictures okay
+[No se pudo entender el audio]
+Gracias ni siquiera
+los amores
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+overheads
+okay
+un exámenes entre todos urbano
+Okay good
+",es,60,0.4666666666666667,6,0,0,3,0,9,22,0,14,4.285714285714286,0,0.03333333333333333,69,primaria,mala,sedentario,alto,si,0.6089743589743589
+adrso211,211,adrso211.txt,"Hola hola
+There is what She's feeling your water which is not but good She is the washing dishes and drying them and Bones The shopping up set Cookie jar
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+venga
+entonces y don't know but I did
+Muchas gracias
+","Hola hola
+There is what She's feeling your water which is not but good She is the washing dishes and drying them and Bones The shopping up set Cookie jar
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+venga
+entonces y don't know but I did
+Muchas gracias
+",en,52,0.7692307692307693,2,1,0,2,0,9,14,0,7,7.428571428571429,0,0.019230769230769232,83,primaria,regular,sedentario,bajo,si,0.4423076923076923
+adrso216,216,adrso216.txt,"[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+qué canción cookies
+en
+and things
+Thanks running Over
+than
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+a
+[No se pudo entender el audio]
+croquis
+[No se pudo entender el audio]
+buenas noches
+venden
+[No se pudo entender el audio]
+speech
+en la
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+qué canción cookies
+en
+and things
+Thanks running Over
+than
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+a
+[No se pudo entender el audio]
+croquis
+[No se pudo entender el audio]
+buenas noches
+venden
+[No se pudo entender el audio]
+speech
+en la
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",es,90,0.25555555555555554,12,0,0,0,0,14,39,0,21,4.190476190476191,0,0.022222222222222223,71,primaria,buena,ejercicio regular,bajo,si,1.0
+adrso222,222,adrso222.txt,"obvio Can you see you going on in the pictures isn't anything
+Jajaja
+George and Still Stand over and mother is one in the water on floor
+no exacto
+two Good morning floor
+","obvio Can you see you going on in the pictures isn't anything
+Jajaja
+George and Still Stand over and mother is one in the water on floor
+no exacto
+two Good morning floor
+",en,33,0.8181818181818182,0,0,0,1,0,6,5,0,5,6.6,0,0.12121212121212122,73,universitaria,regular,ejercicio regular,medio,no,0.1923076923076923
+adrso223,223,adrso223.txt,"[No se pudo entender el audio]
+[No se pudo entender el audio]
+bueno la salud
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+Okay okay
+","[No se pudo entender el audio]
+[No se pudo entender el audio]
+bueno la salud
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+Okay okay
+",es,59,0.1694915254237288,9,1,0,2,0,9,28,0,11,5.363636363636363,1,0.0,71,universitaria,mala,sedentario,bajo,si,0.7564102564102564
+adrso224,224,adrso224.txt,"sí perfecto
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+sí two fights and Two Thousand
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+tengo ganas
+","sí perfecto
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+sí two fights and Two Thousand
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+tengo ganas
+",es,34,0.4117647058823529,4,0,0,0,0,5,14,0,7,4.857142857142857,0,0.0,82,secundaria,buena,sedentario,medio,no,0.35256410256410253
+adrso229,229,adrso229.txt,"Okay let's try something good fine okay Don
+Ay marica
+Muchas gracias
+gracias señor
+Buenas noches de comenzar
+nada más
+[No se pudo entender el audio]
+Thanks gracias
+Can You were here Now what you say good match
+soy yo no sé
+[No se pudo entender el audio]
+","Okay let's try something good fine okay Don
+Ay marica
+Muchas gracias
+gracias señor
+Buenas noches de comenzar
+nada más
+[No se pudo entender el audio]
+Thanks gracias
+Can You were here Now what you say good match
+soy yo no sé
+[No se pudo entender el audio]
+",es,48,0.7708333333333334,2,1,0,2,0,8,12,0,11,4.363636363636363,1,0.0,68,universitaria,regular,ejercicio regular,alto,si,0.3974358974358974
+adrso232,232,adrso232.txt,"papá you to take a Look at this pictures Tell me Everything you say happening in there Everything Is going on in at
+realmente
+Ah bueno
+dice chao reaching for Hey Google
+levitating on is beginning to fold the slown
+Exacto imágenes
+Ay ay ay Espérame 16
+lovers the song
+hay que hacer
+","papá you to take a Look at this pictures Tell me Everything you say happening in there Everything Is going on in at
+realmente
+Ah bueno
+dice chao reaching for Hey Google
+levitating on is beginning to fold the slown
+Exacto imágenes
+Ay ay ay Espérame 16
+lovers the song
+hay que hacer
+",en,53,0.8113207547169812,0,0,0,1,0,10,15,0,9,5.888888888888889,0,0.05660377358490566,78,secundaria,buena,ejercicio regular,alto,si,0.3974358974358974
+adrso233,233,adrso233.txt,"and here is the pictures
+[No se pudo entender el audio]
+un chiste
+[No se pudo entender el audio]
+perfecto
+Gracias significado
+no estoy saliendo World water station
+sí señor
+Ah okay Okay perfecto
+Okay good
+","and here is the pictures
+[No se pudo entender el audio]
+un chiste
+[No se pudo entender el audio]
+perfecto
+Gracias significado
+no estoy saliendo World water station
+sí señor
+Ah okay Okay perfecto
+Okay good
+",es,36,0.75,2,1,0,4,0,6,11,0,10,3.6,1,0.05555555555555555,82,universitaria,regular,sedentario,medio,si,0.37179487179487175
+adrso236,236,adrso236.txt,"Okay okay
+sister madurez
+First think It's feeling Over
+anything Else you see you can on YouTube
+[No se pudo entender el audio]
+okay
+","Okay okay
+sister madurez
+First think It's feeling Over
+anything Else you see you can on YouTube
+[No se pudo entender el audio]
+okay
+",en,24,0.875,1,1,0,3,0,5,6,0,6,4.0,1,0.08333333333333333,73,universitaria,regular,sedentario,medio,no,0.2564102564102564
+adrso237,237,adrso237.txt,"[No se pudo entender el audio]
+Perdón voy a poner lettering
+Wow gracias gracias
+bueno bacterial
+Just running over Things
+grupo skye
+","[No se pudo entender el audio]
+Perdón voy a poner lettering
+Wow gracias gracias
+bueno bacterial
+Just running over Things
+grupo skye
+",en,22,0.9545454545454546,1,1,0,1,0,4,4,0,6,3.6666666666666665,0,0.045454545454545456,66,secundaria,buena,ejercicio regular,medio,no,0.18589743589743585
+adrso244,244,adrso244.txt,"Listen you see you going on in a picture well Start from
+[No se pudo entender el audio]
+First de d
+ese día
+Jajaja
+faus roblox
+vamos a reunir de voz
+okay
+Okay good
+","Listen you see you going on in a picture well Start from
+[No se pudo entender el audio]
+First de d
+ese día
+Jajaja
+faus roblox
+vamos a reunir de voz
+okay
+Okay good
+",es,34,0.8823529411764706,1,1,0,3,0,6,9,0,9,3.7777777777777777,0,0.058823529411764705,84,primaria,regular,sedentario,medio,no,0.31410256410256404
+adrso245,245,adrso245.txt,"No ni nada
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","No ni nada
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",es,27,0.3333333333333333,4,0,0,0,0,4,14,0,5,5.4,0,0.0,79,secundaria,regular,sedentario,bajo,no,0.3333333333333333
+adrso246,246,adrso246.txt,"tell me what you see Giving on the picture
+like This is
+[No se pudo entender el audio]
+the water One overboard down that some anime One
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","tell me what you see Giving on the picture
+like This is
+[No se pudo entender el audio]
+the water One overboard down that some anime One
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",en,39,0.6410256410256411,3,0,0,0,0,6,12,0,6,6.5,0,0.10256410256410256,71,secundaria,regular,ejercicio regular,medio,no,0.32692307692307687
+adrso247,247,adrso247.txt,"Okay is
+Charles Black Point Thing and Now girl She's One brother
+en el monstruos posts
+[No se pudo entender el audio]
+YouTube
+Wow She Don't sing the beans loco
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","Okay is
+Charles Black Point Thing and Now girl She's One brother
+en el monstruos posts
+[No se pudo entender el audio]
+YouTube
+Wow She Don't sing the beans loco
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",en,42,0.6904761904761905,3,0,0,1,0,8,12,0,8,5.25,0,0.0,76,secundaria,buena,ejercicio regular,alto,si,0.3782051282051282
+adrso248,248,adrso248.txt,"No te creo los Washington water spelling over Under the floor Boys
+eh taking some cookies en inglés
+dos está peleando
+Pues sí
+Ah sí ya sabes
+Ah Sí ahí está
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+","No te creo los Washington water spelling over Under the floor Boys
+eh taking some cookies en inglés
+dos está peleando
+Pues sí
+Ah sí ya sabes
+Ah Sí ahí está
+[No se pudo entender el audio]
+[No se pudo entender el audio]
+",es,43,0.7674418604651163,2,0,0,4,0,8,15,0,8,5.375,0,0.06976744186046512,72,secundaria,buena,ejercicio regular,medio,si,0.43589743589743585
+adrso249,249,adrso249.txt,"[No se pudo entender el audio]
+perfil Christian
+[No se pudo entender el audio]
+floor
+Yes What She is water
+","[No se pudo entender el audio]
+perfil Christian
+[No se pudo entender el audio]
+floor
+Yes What She is water
+",en,20,0.7,2,0,0,0,0,3,7,0,5,4.0,0,0.05,79,primaria,buena,sedentario,alto,no,0.1858974358974359
+adrso250,250,adrso250.txt,"here is the picture I'm everything
+Qué bonito
+[No se pudo entender el audio]
+get the songs upside One like you
+[No se pudo entender el audio]
+couple
+so
+Muchísimas gracias Bueno entonces
+Okay okay
+","here is the picture I'm everything
+Qué bonito
+[No se pudo entender el audio]
+get the songs upside One like you
+[No se pudo entender el audio]
+couple
+so
+Muchísimas gracias Bueno entonces
+Okay okay
+",en,35,0.7714285714285715,2,1,0,3,0,5,10,0,8,4.25,2,0.05714285714285714,67,secundaria,buena,sedentario,medio,no,0.32692307692307687
+adrso253,253,adrso253.txt,"Wow my Boys trying to get some cookies and The girls How many Because he has got one
+She wants it and this where is coming Up Is phone Over
+[No se pudo entender el audio]
+water and Sound for going
+call center Hill
+poquitas
+Spider
+","Wow my Boys trying to get some cookies and The girls How many Because he has got one
+She wants it and this where is coming Up Is phone Over
+[No se pudo entender el audio]
+water and Sound for going
+call center Hill
+poquitas
+Spider
+",en,46,0.9347826086956522,1,0,0,0,0,9,9,0,7,6.571428571428571,0,0.06521739130434782,78,secundaria,regular,ejercicio regular,medio,no,0.30769230769230765

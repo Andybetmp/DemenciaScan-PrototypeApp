@@ -1,0 +1,9 @@
+{
+  "csv_path": "transcripciones_procesadas.csv",
+  "model_type": "multilingual",
+  "batch_size": 4,
+  "max_length": 512,
+  "num_epochs": 20,
+  "learning_rate": 2e-05,
+  "save_dir": "models"
+}
