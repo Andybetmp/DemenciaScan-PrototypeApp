@@ -1,0 +1,37 @@
+{
+  "dataset_name": "Test",
+  "accuracy": 0.6,
+  "f1_avg": 0.45,
+  "precision_avg": 0.36,
+  "recall_avg": 0.6,
+  "auc_roc": 0.45833333333333337,
+  "loss": 0.7096001903216044,
+  "confusion_matrix": [
+    [
+      6,
+      0
+    ],
+    [
+      4,
+      0
+    ]
+  ],
+  "per_class_metrics": {
+    "precision": [
+      0.6,
+      0.0
+    ],
+    "recall": [
+      1.0,
+      0.0
+    ],
+    "f1": [
+      0.75,
+      0.0
+    ],
+    "support": [
+      6,
+      4
+    ]
+  }
+}
