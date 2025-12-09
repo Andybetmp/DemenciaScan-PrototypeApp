@@ -1,0 +1,34 @@
+# Dependencias adicionales para la Interfaz Gráfica
+# Instalar con: pip install -r requirements_gui.txt
+
+# Interfaz web
+streamlit>=1.28.0
+
+# Visualizaciones interactivas
+plotly>=5.17.0
+
+# Generación de PDFs
+fpdf>=1.7.2
+
+# Procesamiento de imágenes
+Pillow>=10.0.0
+
+# Variables de entorno
+python-dotenv>=1.0.0
+
+# API de Groq
+groq>=0.4.0
+
+# Utilidades adicionales
+python-multipart>=0.0.6
+watchdog>=3.0.0
+
+# Nota: Las siguientes dependencias ya deberían estar instaladas desde requirements.txt
+# Si no están, instalar manualmente:
+# - pyaudio>=0.2.13
+# - keyboard>=0.13.5
+# - pyautogui>=0.9.54
+# - pyperclip>=1.8.2
+
+# Grabación de audio en navegador (OPCIONAL - funcionalidad en desarrollo)
+# streamlit-audio-recorder>=0.0.8

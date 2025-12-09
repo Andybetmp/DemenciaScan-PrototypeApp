@@ -1,0 +1,65 @@
+digraph "Arquitectura Técnica de DemenciaScanApp - Versión Local" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="Arquitectura Técnica de DemenciaScanApp - Versión Local" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"6eb0bf151473472ebad206458c61b239" [label="Usuario Final" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/onprem/client\user.png" shape=none]
+	subgraph "cluster_Capa de Interfaz de Usuario (UI)" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Capa de Interfaz de Usuario (UI)" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		"9f449141026240f1bf80a73c4811ef64" [label="Streamlit App" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/programming/language\python.png" shape=none]
+		subgraph "cluster_Páginas de la UI" {
+			graph [bgcolor="#EBF3E7" fontname="Sans-Serif" fontsize=12 label="Páginas de la UI" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+			"1e6df2c78b0149f1baee785d0707cb05" [label="Página Inicio" height=1.9 image="./icons/home.png" shape=none]
+			"27c6aad1bf2a4415a0ac83c1d7095cac" [label="Análisis de Texto" height=1.9 image="./icons/text_analysis.png" shape=none]
+			"67f95b74413c4cee8b40800f578831f1" [label="Transcripción" height=1.9 image="./icons/microphone.png" shape=none]
+			e738e5e7a5a143dc864c79373b03824c [label="Análisis Completo" height=1.9 image="./icons/integration.png" shape=none]
+			"0789833a823f45019cd87a87169c41bb" [label=Historial height=1.9 image="./icons/history.png" shape=none]
+			"339122c35d774bd493848fb04887f0b1" [label="Configuración" height=1.9 image="./icons/settings.png" shape=none]
+		}
+	}
+	subgraph "cluster_Capa de Procesamiento y Modelo IA" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Capa de Procesamiento y Modelo IA" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		"8beeb607d4e944b88df1c166aa871e07" [label="Modulos de Preprocesamiento" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/programming/language\python.png" shape=none]
+		f1656b6a4e544a9ca909cdf781398b97 [label="Extraccion de Características" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/programming/language\python.png" shape=none]
+		"75eb1e92ecb945af8196cc6a2048b94f" [label="Modelo BERT Fine-tuned" height=1.9 image="./icons/bert.png" shape=none]
+		"1af6f513b54d4c9f948ec8949f5a7994" [label=DemenciaPredictor height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/programming/language\python.png" shape=none]
+	}
+	subgraph "cluster_Capa de Servicios Externos" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Capa de Servicios Externos" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		f744eaa218774ddb88f0eb21b9551258 [label="Groq Whisper API" height=1.9 image="./icons/groq.png" shape=none]
+		"5558f231979e447982ada46aeef464be" [label="Google SpeechRecognition" height=1.9 image="./icons/google_cloud.png" shape=none]
+	}
+	subgraph "cluster_Capa de Almacenamiento y Resultados" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Capa de Almacenamiento y Resultados" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		d6b893145b6b498997e19ce975b52150 [label="Archivos Locales" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/onprem/database\postgresql.png" shape=none]
+		"466f62a2ab804ffdba0070c3b25f47d1" [label="Historial de Analisis" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/onprem/database\postgresql.png" shape=none]
+		"14314d7310bc4b44acace929cfb1de29" [label="Logs del Sistema" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/onprem/database\postgresql.png" shape=none]
+	}
+	subgraph "cluster_Capa de Visualización" {
+		graph [bgcolor="#E5F5FD" fontname="Sans-Serif" fontsize=12 label="Capa de Visualización" labeljust=l pencolor="#AEB6BE" rankdir=LR shape=box style=rounded]
+		"21e5ee6c3a844b0aa46407cfae25c493" [label="Plotly Charts" height=1.9 image="./icons/plotly.png" shape=none]
+		dcff07c5e2af47a6bc901d262565e670 [label="Matplotlib Plots" height=1.9 image="./icons/matplotlib.png" shape=none]
+		"46d7121834f449c38592f7c3836ba296" [label="Exportacion de Reportes" height=1.9 image="C:\Users\andyj\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\resources/programming/language\python.png" shape=none]
+	}
+	"6eb0bf151473472ebad206458c61b239" -> "9f449141026240f1bf80a73c4811ef64" [label="Graba voz / Carga audio / Ingresa texto" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "1e6df2c78b0149f1baee785d0707cb05" [label=Navegacion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "27c6aad1bf2a4415a0ac83c1d7095cac" [label=Navegacion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "67f95b74413c4cee8b40800f578831f1" [label=Navegacion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> e738e5e7a5a143dc864c79373b03824c [label=Navegacion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "0789833a823f45019cd87a87169c41bb" [label=Navegacion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "339122c35d774bd493848fb04887f0b1" [label=Navegacion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"67f95b74413c4cee8b40800f578831f1" -> f744eaa218774ddb88f0eb21b9551258 [label="Audio grabado" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	f744eaa218774ddb88f0eb21b9551258 -> "67f95b74413c4cee8b40800f578831f1" [label="Transcripción generada" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"27c6aad1bf2a4415a0ac83c1d7095cac" -> "8beeb607d4e944b88df1c166aa871e07" [label="Texto + Datos demograficos" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"8beeb607d4e944b88df1c166aa871e07" -> f1656b6a4e544a9ca909cdf781398b97 [label="Texto limpio" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	f1656b6a4e544a9ca909cdf781398b97 -> "75eb1e92ecb945af8196cc6a2048b94f" [label="Características lingüísticas" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"75eb1e92ecb945af8196cc6a2048b94f" -> "1af6f513b54d4c9f948ec8949f5a7994" [label="Predicciones de riesgo" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	f744eaa218774ddb88f0eb21b9551258 -> "8beeb607d4e944b88df1c166aa871e07" [label=Transcripcion dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"1af6f513b54d4c9f948ec8949f5a7994" -> "21e5ee6c3a844b0aa46407cfae25c493" [label="Resultados de analisis" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"21e5ee6c3a844b0aa46407cfae25c493" -> "9f449141026240f1bf80a73c4811ef64" [label="Graficos generados" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"1af6f513b54d4c9f948ec8949f5a7994" -> d6b893145b6b498997e19ce975b52150 [label=Resultados dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"1af6f513b54d4c9f948ec8949f5a7994" -> "14314d7310bc4b44acace929cfb1de29" [label=Logs dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "466f62a2ab804ffdba0070c3b25f47d1" [label=Historial dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"21e5ee6c3a844b0aa46407cfae25c493" -> "46d7121834f449c38592f7c3836ba296" [label="Datos para reporte" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"46d7121834f449c38592f7c3836ba296" -> d6b893145b6b498997e19ce975b52150 [label="PDF/CSV/JSON" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"9f449141026240f1bf80a73c4811ef64" -> "6eb0bf151473472ebad206458c61b239" [label="Resultados visualizados" dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}
