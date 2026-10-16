@@ -1,0 +1,9 @@
+requirements.txt
+src/
+data/
+notebooks/
+tests/
+*.pth
+*.pyc
+__pycache__/
+.env
