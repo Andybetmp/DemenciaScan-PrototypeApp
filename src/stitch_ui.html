@@ -90,7 +90,7 @@
 </div>
 <!-- Monospace Timer -->
 <div class="bg-surface-container-lowest/90 px-3 py-1 rounded flex items-baseline gap-1">
-<span class="font-data-metric-md text-data-metric-md text-primary tracking-wider" id="recordingTimer">00:02:47</span>
+<span class="font-data-metric-md text-data-metric-md text-primary tracking-wider" id="recordingTimer">00:00:00</span>
 <span class="font-label-xs text-label-xs text-outline">/ 03:00 máx</span>
 </div>
 </div>
@@ -104,7 +104,7 @@
 <span class="w-1 rounded-full bg-surface-bright transition-all duration-150 h-3"></span>
 <span class="w-1 rounded-full bg-surface-bright transition-all duration-150 h-2"></span>
 <!-- Detected hesitation zone vertical marker -->
-<div class="relative flex flex-col items-center mx-1">
+<div id="pauseMarkerBlock" class="hidden relative flex flex-col items-center mx-1">
 <span class="font-label-xs text-[9px] text-amber-400 bg-amber-400/10 px-1 rounded absolute -top-4 whitespace-nowrap">PAUSA 2.4s</span>
 <div class="w-8 h-16 rounded bg-amber-400/10 flex items-center justify-center gap-0.5">
 <span class="w-0.5 h-2 bg-amber-400/40 rounded-full"></span>
@@ -1695,12 +1695,13 @@
   const captureStatusText = document.getElementById('captureStatusText');
   const vuPeakText = document.getElementById('vuPeakText');
 
-  // Start in active recording state (since button initially says "Pausar Captura" and badge says "REC ACTIVO")
-  let isRecording = true;
-  let secondsElapsed = 167; // 00:02:47 initial
+  // Start in clean IDLE state (00:00:00, not recording until user clicks "Iniciar Captura")
+  let isRecording = false;
+  let secondsElapsed = 0;
   let timerInterval = null;
   let waveInterval = null;
   let recognition = null;
+  const pauseMarkerBlock = document.getElementById('pauseMarkerBlock');
 
   function formatTime(sec) {
     const m = String(Math.floor(sec / 60)).padStart(2, '0');
@@ -1710,6 +1711,7 @@
 
   function startWaveformAnimation() {
     clearInterval(waveInterval);
+    if (pauseMarkerBlock) pauseMarkerBlock.classList.add('hidden');
     waveInterval = setInterval(() => {
       if (!waveformContainer) return;
       const bars = waveformContainer.querySelectorAll('span.w-1');
@@ -1725,7 +1727,7 @@
     }, 160);
   }
 
-  function stopWaveformAnimation() {
+  function stopWaveformAnimation(isIdle = false) {
     clearInterval(waveInterval);
     if (waveformContainer) {
       const bars = waveformContainer.querySelectorAll('span.w-1');
@@ -1735,7 +1737,7 @@
       });
     }
     if (vuPeakText) {
-      vuPeakText.textContent = 'VU PEAK: -∞ dB (PAUSA)';
+      vuPeakText.textContent = isIdle ? 'VU PEAK: -∞ dB (LISTO)' : 'VU PEAK: -∞ dB (PAUSA)';
     }
   }
 
@@ -1763,7 +1765,7 @@
         recBadgeText.className = 'font-label-code text-label-code text-on-surface font-semibold';
       }
       if (captureStatusText) captureStatusText.textContent = 'GRABACIÓN EN CURSO';
-      if (captureStatusDot) captureStatusDot.className = 'w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse';
+      if (captureStatusDot) captureStatusDot.className = 'w-1.5 h-1.5 rounded-full bg-error animate-ping';
       startWaveformAnimation();
       startTimer();
 
@@ -1784,33 +1786,48 @@
           recognition.start();
         } catch (e) {}
       }
-      if (notify) showToast('Captura Acústica Reanudada', 'Grabando señal de voz a 48.0 kHz PCM...', 'mic');
+      if (notify) showToast('Captura Acústica Iniciada', 'Grabando señal de voz a 48.0 kHz PCM...', 'mic');
     } else {
+      const isIdle = (secondsElapsed === 0);
       if (recordBtn) {
-        recordBtn.innerHTML = '<span class="material-symbols-outlined text-[20px] text-primary">play_arrow</span><span>Reanudar Captura</span>';
-        recordBtn.classList.remove('bg-primary', 'text-on-primary');
-        recordBtn.classList.add('bg-surface-container-high', 'text-on-surface', 'border', 'border-primary/40');
+        if (isIdle) {
+          recordBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">mic</span><span>Iniciar Captura</span>';
+          recordBtn.classList.remove('bg-surface-container-high', 'text-on-surface', 'border', 'border-primary/40');
+          recordBtn.classList.add('bg-primary', 'text-on-primary');
+        } else {
+          recordBtn.innerHTML = '<span class="material-symbols-outlined text-[20px] text-primary">play_arrow</span><span>Reanudar Captura</span>';
+          recordBtn.classList.remove('bg-primary', 'text-on-primary');
+          recordBtn.classList.add('bg-surface-container-high', 'text-on-surface', 'border', 'border-primary/40');
+        }
       }
       if (recBadgeDot) {
-        recBadgeDot.className = 'w-2 h-2 rounded-full bg-amber-400';
+        recBadgeDot.className = isIdle ? 'w-2 h-2 rounded-full bg-tertiary' : 'w-2 h-2 rounded-full bg-amber-400';
       }
       if (recBadgeText) {
-        recBadgeText.textContent = 'EN PAUSA';
-        recBadgeText.className = 'font-label-code text-label-code text-amber-400 font-semibold';
+        recBadgeText.textContent = isIdle ? 'LISTO' : 'EN PAUSA';
+        recBadgeText.className = isIdle
+          ? 'font-label-code text-label-code text-tertiary font-semibold'
+          : 'font-label-code text-label-code text-amber-400 font-semibold';
       }
-      if (captureStatusText) captureStatusText.textContent = 'CAPTURA EN PAUSA';
-      if (captureStatusDot) captureStatusDot.className = 'w-1.5 h-1.5 rounded-full bg-amber-400';
-      stopWaveformAnimation();
+      if (captureStatusText) captureStatusText.textContent = isIdle ? 'LISTO PARA GRABAR' : 'CAPTURA EN PAUSA';
+      if (captureStatusDot) {
+        captureStatusDot.className = isIdle
+          ? 'w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse'
+          : 'w-1.5 h-1.5 rounded-full bg-amber-400';
+      }
+      if (pauseMarkerBlock) pauseMarkerBlock.classList.add('hidden');
+      stopWaveformAnimation(isIdle);
       clearInterval(timerInterval);
       if (recognition) {
         try { recognition.stop(); } catch (e) {}
       }
-      if (notify) showToast('Captura en Pausa', 'Grabación detenida temporalmente • Buffer sincronizado.', 'pause_circle');
+      if (notify && !isIdle) showToast('Captura en Pausa', 'Grabación detenida temporalmente • Buffer sincronizado.', 'pause_circle');
     }
   }
 
-  // Initialize active animation on load so pressing "Pausar Captura" immediately pauses on the very first click
-  setRecordingUI(true, false);
+  // Initialize in clean IDLE state (00:00:00, "LISTO", button says "Iniciar Captura")
+  if (timerEl) timerEl.textContent = '00:00:00';
+  setRecordingUI(false, false);
 
   if (recordBtn) {
     recordBtn.addEventListener('click', () => {
