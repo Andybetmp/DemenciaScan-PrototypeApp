@@ -7,7 +7,7 @@ import pyautogui
 from groq import Groq
 import pyperclip
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 def grabar_audio(frecuencia_muestreo=16000, canales=1, fragmento=1024):
     p= pyaudio.Pyaudio()

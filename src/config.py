@@ -17,7 +17,7 @@ load_dotenv()
 ROOT_DIR = Path(__file__).parent.parent.absolute()
 
 # Directorios principales
-DEMENCIA_SCAN_DIR = ROOT_DIR / "DemenciaScan"
+DEMENCIA_SCAN_DIR = ROOT_DIR / "src" / "DemenciaScan"
 MODELS_DIR = DEMENCIA_SCAN_DIR / "models_test"
 DATA_DIR = ROOT_DIR / "data"
 TEMP_DIR = ROOT_DIR / "temp"
@@ -36,7 +36,7 @@ TRAINING_DATA_CSV = ROOT_DIR / "transcripciones_procesadas.csv"
 # ============================================================================
 
 # Groq API (para transcripción)
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
 # ============================================================================
 # CONFIGURACIÓN DE MODELOS
