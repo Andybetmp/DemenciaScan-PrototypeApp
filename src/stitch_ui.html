@@ -213,50 +213,13 @@
 </div>
 </div>
 <!-- Highlighted Transcript Text Area -->
-<div id="transcriptEditor" contenteditable="true" spellcheck="false" class="p-space-sm bg-surface-container-low rounded-lg leading-relaxed text-on-surface font-body-md text-body-md select-text focus:outline-none focus:ring-1 focus:ring-primary/60 transition-all" title="Haz clic para editar o dictar la transcripción en vivo">
-<span>Bueno... </span>
-<span class="px-1.5 py-0.5 rounded bg-amber-400/10 text-amber-300 font-label-xs text-label-xs inline-flex items-center gap-0.5 cursor-help" title="Vacilación vocálica 620ms">
-              eh...
-            </span>
-<span> en la imagen veo a una señora lavando los platos </span>
-<!-- Interactive Badge: Short Pause -->
-<button class="group relative inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300 font-label-code text-[11px] align-middle hover:bg-amber-500/25 transition-all mx-1" type="button">
-<span class="material-symbols-outlined text-[12px]">timer</span>
-<span>[pausa breve - 2.4s]</span>
-<!-- Tooltip on hover -->
-<span class="hidden group-hover:block absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-surface-container-highest px-2 py-1 rounded font-label-xs text-[10px] text-on-surface whitespace-nowrap shadow-md z-30">
-                Duración: 2420ms | Umbral de afasia leve
-              </span>
-</button>
-<span>el agua se está... se está derramando por el fregadero... y los niños... el niño está sobre un taburete </span>
-<!-- Interactive Badge: Hesitation / Phonologic Stumble -->
-<button class="group relative inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-container/40 text-secondary font-label-code text-[11px] align-middle hover:bg-secondary-container/60 transition-all mx-1" type="button">
-<span class="material-symbols-outlined text-[12px]">sync_problem</span>
-<span>[titubeo fonológico]</span>
-<span class="hidden group-hover:block absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-surface-container-highest px-2 py-1 rounded font-label-xs text-[10px] text-on-surface whitespace-nowrap shadow-md z-30">
-                Repetición silábica [ta-taburete] | Confianza BERT: 92%
-              </span>
-</button>
-<span>tratando de alcanzar... </span>
-<span class="px-1.5 py-0.5 rounded bg-amber-400/10 text-amber-300 font-label-xs text-label-xs">eh...</span>
-<span> unas galletas en el tarro alto... </span>
-<!-- Interactive Badge: Long Prolonged Pause -->
-<button class="group relative inline-flex items-center gap-1 px-2 py-0.5 rounded bg-error-container/40 text-error font-label-code text-[11px] align-middle font-medium hover:bg-error-container/60 transition-all mx-1" type="button">
-<span class="material-symbols-outlined text-[12px]">hourglass_top</span>
-<span>[pausa prolongada - 4.1s]</span>
-<span class="hidden group-hover:block absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-surface-container-highest px-2 py-1 rounded font-label-xs text-[10px] text-on-surface whitespace-nowrap shadow-md z-30">
-                Alerta de anomia léxica: 4100ms sin fonación
-              </span>
-</button>
-<span>... la niña le pide que le pase una...</span>
-<span class="inline-block w-2 h-4 bg-primary animate-pulse align-middle ml-1"></span>
-</div>
+<div id="transcriptEditor" contenteditable="true" spellcheck="false" data-placeholder="Inicie la captura de voz, suba un archivo de audio o escriba/pegue aquí la transcripción del paciente para analizar sus biomarcadores..." class="min-h-[108px] p-space-sm bg-surface-container-low rounded-lg leading-relaxed text-on-surface font-body-md text-body-md select-text focus:outline-none focus:ring-1 focus:ring-primary/60 transition-all empty:before:content-[attr(data-placeholder)] empty:before:text-outline/70 cursor-text"></div>
 <!-- Bottom Acoustic Real-Time Quick Metrics -->
 <div class="grid grid-cols-3 gap-space-sm pt-space-xs">
 <div class="p-space-sm bg-surface-container rounded-lg flex flex-col">
 <span class="font-label-xs text-label-xs text-outline uppercase">Tasa Articulatoria</span>
 <div class="flex items-baseline gap-1 mt-1">
-<span id="metricWpm" class="font-data-metric-md text-data-metric-md text-on-surface">112</span>
+<span id="metricWpm" class="font-data-metric-md text-data-metric-md text-on-surface">0</span>
 <span class="font-label-xs text-label-xs text-outline">palabras/min</span>
 </div>
 <span class="font-label-xs text-[10px] text-amber-400 mt-0.5">↓ -18% vs estándar edad</span>
@@ -264,7 +227,7 @@
 <div class="p-space-sm bg-surface-container rounded-lg flex flex-col">
 <span class="font-label-xs text-label-xs text-outline uppercase">Ratio de Silencios</span>
 <div class="flex items-baseline gap-1 mt-1">
-<span id="metricSilence" class="font-data-metric-md text-data-metric-md text-error">28.4%</span>
+<span id="metricSilence" class="font-data-metric-md text-data-metric-md text-error">0.0%</span>
 <span class="font-label-xs text-label-xs text-outline">del audio total</span>
 </div>
 <span class="font-label-xs text-[10px] text-error mt-0.5">Umbral moderado (+11%)</span>
@@ -272,7 +235,7 @@
 <div class="p-space-sm bg-surface-container rounded-lg flex flex-col">
 <span class="font-label-xs text-label-xs text-outline uppercase">Densidad Léxica</span>
 <div class="flex items-baseline gap-1 mt-1">
-<span id="metricTtr" class="font-data-metric-md text-data-metric-md text-tertiary">0.44</span>
+<span id="metricTtr" class="font-data-metric-md text-data-metric-md text-tertiary">0.00</span>
 <span class="font-label-xs text-label-xs text-outline">TTR index</span>
 </div>
 <span class="font-label-xs text-[10px] text-tertiary mt-0.5">Rango neurotípico bajo</span>
@@ -304,7 +267,7 @@
 <div class="sm:col-span-2 flex flex-col gap-1.5">
 <label class="font-label-xs text-label-xs text-outline uppercase tracking-wider">Nombre del Paciente</label>
 <div class="relative">
-<input class="w-full bg-surface-container rounded px-3 py-2 text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_8px_rgba(76,215,246,0.3)] transition-all" id="patientNameInput" type="text" value="Marta Valenzuela S."/>
+<input class="w-full bg-surface-container rounded px-3 py-2 text-on-surface font-body-md text-body-md focus:outline-none focus:bg-surface-container-high focus:shadow-[0_0_8px_rgba(76,215,246,0.3)] transition-all" id="patientNameInput" type="text" value="" placeholder="Ej. Marta Valenzuela S."/>
 <span class="material-symbols-outlined absolute right-2.5 top-2.5 text-outline text-[16px]">account_circle</span>
 </div>
 </div>
@@ -1974,15 +1937,25 @@
   }
 
   function updateLiveTranscriptMetrics() {
-    const ev = computeClinicalBiomarkers();
+    const rawText = (editor ? editor.innerText : '').trim();
     const wpmEl = document.getElementById('metricWpm');
     const silEl = document.getElementById('metricSilence');
     const ttrEl = document.getElementById('metricTtr');
+    const nameVal = (document.getElementById('patientNameInput')?.value || '').trim();
+    const ageVal = document.getElementById('patientAgeInput')?.value || '71';
+    const headerName = document.getElementById('headerPatientName');
+    if (headerName) headerName.textContent = (nameVal || 'Nueva Sesión') + ' (' + ageVal + 'a)';
+
+    if (!rawText) {
+      if (wpmEl) wpmEl.textContent = '0';
+      if (silEl) silEl.textContent = '0.0%';
+      if (ttrEl) ttrEl.textContent = '0.00';
+      return;
+    }
+    const ev = computeClinicalBiomarkers();
     if (wpmEl) wpmEl.textContent = String(ev.wpm);
     if (silEl) silEl.textContent = ev.silencePct + '%';
     if (ttrEl) ttrEl.textContent = ev.ttr.toFixed(2);
-    const headerName = document.getElementById('headerPatientName');
-    if (headerName) headerName.textContent = ev.patientName + ' (' + ev.age + 'a)';
   }
 
   editor?.addEventListener('input', updateLiveTranscriptMetrics);
